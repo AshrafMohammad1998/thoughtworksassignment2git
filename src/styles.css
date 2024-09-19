@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: aquamarine;
+  background-size: contain;
+  min-height: 800px;
+}
+.drink-mixer-name {
+  padding-top: 10px;
+  text-decoration: underline;
+}
+.input-box {
+  font-size: large;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0px solid;
+}
+.search-button {
+  margin-left: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: #094162;
+  color: white;
+  border-radius: 5px;
+  border: 0px solid;
+  font-size: 14px;
+}
+.drink-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.drink-card-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.drink-detail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+.card-drink-name {
+  font-size: 15px;
+}
+.close-button {
+  margin-top: 20px;
+}
+.drink-card-detail-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
